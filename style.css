@@ -7,33 +7,33 @@
 
 @font-face {
    font-family: 'Montserrat';
-   src: url(/fonts/MontserratAlternates-Medium.ttf) format('truetype');
+   src: url(fonts/MontserratAlternates-Medium.ttf) format('truetype');
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
   font-family: 'Montserrat-italic';
-  src: url(/fonts/MontserratAlternates-MediumItalic.ttf) format('truetype');
+  src: url(fonts/MontserratAlternates-MediumItalic.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
    font-family: 'DelaGothicOne';
-   src: url(/fonts/DelaGothicOne-Regular.ttf) format('truetype');
+   src: url(fonts/DelaGothicOne-Regular.ttf) format('truetype');
    font-weight: bold;
    font-style: normal;
 }   
 
 @font-face {
    font-family: 'Pacifico';
-   src: url(/fonts/Pacifico-Regular.ttf) format('truetype');
+   src: url(fonts/Pacifico-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'NokiaKokia';
-  src: url(/fonts/NokiaKokia\(RYS\ BY\ LYAJKA\).ttf) format('truetype');
+  src: url(fonts/NokiaKokia\(RYS\ BY\ LYAJKA\).ttf) format('truetype');
 }
 
  :root{
