@@ -37,15 +37,15 @@
 }
 
  :root{
-   --color-baze: #fff;
-   --color-second: rgb(34, 51, 59);
+   --color-baze: rgb(238, 238, 238);
+   --color-second: rgb(61, 135, 138);
    --aspect-ratio: auto;
  }
 
  h1{
    font-size: 44px;
    font-family: NokiaKokia;
-   color: rgb(94, 80, 63);
+   color: rgb(118, 143, 183);
  }
 
  h2{
@@ -72,7 +72,7 @@
  header{
   place-content: center;
   align-items: center;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(34, 40, 49);
   display: flex;
   flex: 0 0 auto;
   flex-flow: row;
@@ -138,7 +138,7 @@
   color: #fff;
   width: 200px;
   transition: 0.3s;
-  background-color: rgb(255, 198, 140);
+  background-color: rgb(15, 217, 226);
  }
 
  .header__column2{
@@ -174,7 +174,7 @@
  .grid1{
   place-self: start;
   aspect-ratio: 2.14336 / 1;
-  background-color: rgb(34, 51, 59);
+  background-color: var(--color-second);
   border-bottom-left-radius: 200px;
   border-top-right-radius: 200px;
   grid-column: auto / span 2;
