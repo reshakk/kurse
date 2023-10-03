@@ -1,0 +1,105 @@
+:root{
+    --aspect-ratio: auto;
+}
+
+@media screen and (min-width: 810px) and (max-width: 1199px) {
+    
+    header{
+        min-height: unset;
+        padding: 50px;
+    }
+    
+    .text{padding: 80px 40px;}
+    .team, footer{padding: 50px;}
+
+    .grid1, .grid7{height: var(--aspect-ratio, 98px);}
+    .grid2, .grid3, .grid4, .grid5, .grid6{height: var(--aspect-ratio, 95px);}
+
+    .text__svg img{opacity: 0.3;}
+
+    .gallery__grid{
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .gallery1, .gallery2, .gallery3 {
+        align-self: unset;
+        border-radius: 30px;
+    }
+}
+
+
+@media  screen and (max-width: 809px) {
+    
+    header{
+        flex-direction: column;
+        gap: 50px;
+        min-height: unset;
+        padding: 20px;
+    }
+
+    .header__container{
+        flex: 0 0 auto;
+        flex-direction: column;
+        order: 0;
+        width: 100%;
+    }
+
+    .header__column1{
+        align-content: center;
+        align-items: center;
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .header__column2 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    
+    .grid1, .grid7{height: var(--aspect-ratio, 106px);}
+    .grid2, .grid3, .grid4, .grid5, .grid6{height: var(--aspect-ratio, 104px);}
+
+    .text__svg img{
+        opacity: 0.3;
+        transform: scale(0.8);
+        width: 300px;
+    }
+
+    .text__title h2{font-size: 20px;}
+
+    .text, .team{padding: 60px 20px;}
+    .team{gap:40px}
+    .cards{
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    .card{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .gallery{padding: 20px;}
+    .gallery__title h2{font-size: 25px;}
+    .gallery__text h2{font-size: 20px;}
+
+    .gallery__grid{
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .gallery1, .gallery2, .gallery3 {
+        align-self: unset;
+        border-radius: 20px;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .gallery__img{height: 200px;}
+
+    footer{padding: 40px 20px;}
+}
