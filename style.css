@@ -36,6 +36,11 @@
   src: url(fonts/NokiaKokia\(RYS\ BY\ LYAJKA\).ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Changename';
+  src: url(fonts/Change\ your\ name.ttf) format('truetype');
+}
+
  :root{
    --color-baze: rgb(238, 238, 238);
    --color-second: rgb(61, 135, 138);
@@ -43,9 +48,10 @@
  }
 
  h1{
-   font-size: 44px;
-   font-family: NokiaKokia;
+   font-size: 92px;
+   font-family:  Changename;
    color: rgb(118, 143, 183);
+   letter-spacing: 2px;
  }
 
  h2{
