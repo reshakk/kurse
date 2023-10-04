@@ -39,6 +39,7 @@
         min-height: unset;
         padding: 20px;
     }
+    h1{font-size: 51px;}
 
     .header__container{
         flex: 0 0 auto;
