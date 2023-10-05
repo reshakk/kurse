@@ -28,6 +28,11 @@
         align-self: unset;
         border-radius: 30px;
     }
+
+    .knowledge{
+        gap:20px;
+        padding: 50px;
+    }
 }
 
 
@@ -102,6 +107,18 @@
     }
 
     .gallery__img{height: 200px;}
+
+    .circle__conteiner{
+        flex-flow: column;
+        gap: 60px;
+        padding: 60px 20px;
+    }
+
+    .circle{
+        flex: 0 0 auto;
+        padding: 20px;
+        width: 100%;
+    }
 
     footer{padding: 40px 20px;}
 }
