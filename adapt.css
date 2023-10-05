@@ -8,6 +8,10 @@
         min-height: unset;
         padding: 50px;
     }
+
+    header h1{
+        font-size: 40px;
+    }
     
     .text{padding: 80px 40px;}
     .team, footer{padding: 50px;}
@@ -47,7 +51,7 @@
         min-height: unset;
         padding: 20px;
     }
-    h1{font-size: 60px;}
+    h1{font-size: 45px;}
 
     .header__container{
         flex: 0 0 auto;
