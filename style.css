@@ -37,8 +37,8 @@
 }
 
 @font-face {
-  font-family: 'Changename';
-  src: url(fonts/Change\ your\ name.ttf) format('truetype');
+  font-family: 'Lapsus';
+  src: url(fonts/LapsusPro-Bold.otf) format('truetype');
 }
 
  :root{
@@ -48,10 +48,10 @@
  }
 
  h1{
-   font-size: 92px;
-   font-family:  Changename;
+   font-size: 93px;
+   font-family:  Lapsus;
    color: rgb(118, 143, 183);
-   letter-spacing: 2px;
+   letter-spacing: -2px;
  }
 
  h2{
